@@ -1,0 +1,142 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "# Scenario outline only for examples"
+          }
+        ],
+        "line": 5,
+        "name": "FreeCRM Login Test Scenario",
+        "description": "",
+        "id": "deal-data-creation;freecrm-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User is already on login page",
+            "match": {
+              "location": "DealStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Title of login page is Free CRM",
+            "match": {
+              "location": "DealStepDefinition.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User enters username and password",
+            "match": {
+              "location": "DealStepDefinition.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ravi",
+                  "test123"
+                ],
+                "line": 11
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "DealStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User is on HomePage",
+            "match": {
+              "location": "DealStepDefinition.user_is_on_HomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User moves to new deals page",
+            "match": {
+              "location": "DealStepDefinition.user_moves_to_new_deals_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User types deals details",
+            "match": {
+              "location": "DealStepDefinition.user_types_deals_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "testdeal",
+                  "1000",
+                  "5",
+                  "10"
+                ],
+                "line": 16
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Close Browser",
+            "match": {
+              "location": "DealStepDefinition.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Deal Data Creation",
+    "description": "",
+    "id": "deal-data-creation",
+    "keyword": "Feature",
+    "uri": "/Users/ravitejaburugupalli/LearnBitch/FreeCRMBDDFramework/src/main/java/Feature/deals.feature"
+  }
+]
